@@ -7,7 +7,7 @@ let typingIndicator = document.getElementById("typingIndicator");
 let typingTimer;
 
 // Making a socket server connection
-const socket = io.connect("http://localhost:3000");
+const socket = io.connect("https://chatterup-o6je.onrender.com");
 const username = prompt("Enter your name");
 
 // Check if the username is provided
